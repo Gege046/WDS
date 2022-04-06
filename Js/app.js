@@ -5,6 +5,7 @@ const logo = document.querySelector('.header__logo span')
 var index = false
 
 
+
 window.addEventListener('scroll', () => {
     if(window.scrollY > 0) {
         header.classList.add('active')
@@ -29,7 +30,7 @@ window.addEventListener('scroll', () => {
           menu.classList.add('active')
           index = true
       }else{
-          if(window.screenY == 62) {
+          if(window.screenY == 0) {
             header.classList.remove('active')
         }
         console.log(window.screenY)
