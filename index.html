@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Css/style.css">
     <script src="Js/app.js" defer></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="icon" type="image/x-icon" href="Assets/logo_1.png">
 </head>
 <body>
     <header class="header">
@@ -24,10 +25,10 @@
                 <nav class="menu">
                     <ul class="list__item">
                         <li class="list__item-item">
-                            <a class="list__item-link clicked" href="#">მთავარი</a>
+                            <a class="list__item-link clicked" href="#home">მთავარი</a>
                         </li>
                         <li class="list__item-item">
-                            <a class="list__item-link" href="#">ნამუშევრები</a>
+                            <a class="list__item-link" href="#portfolio">ნამუშევრები</a>
                         </li>
                         <li class="list__item-item">
                             <a class="list__item-link" href="#">კონტაქტი</a>
@@ -45,7 +46,23 @@
             </div>
         </div>
     </header>
-    <section class="home">
+    <div class="burger__menu">
+        <span class="close">&times;</span>
+        <nav class="menu">
+            <ul class="list__item">
+                <li class="list__item-item">
+                    <a class="list__item-link clicked" href="#home">მთავარი</a>
+                </li>
+                <li class="list__item-item">
+                    <a class="list__item-link" href="#portfolio">ნამუშევრები</a>
+                </li>
+                <li class="list__item-item">
+                    <a class="list__item-link" href="#">კონტაქტი</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section class="home" id="home">
         <div class="swiper slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide slide first-slide">
@@ -72,6 +89,246 @@
             </div>
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__inner">
+                <h2 class="portfolio__title">ნამუშევრები</h2>
+                <div class="portfolio__items">
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/1.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/2.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/3.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/4.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/5.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/6.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/7.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/8.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item show">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div><div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                    <div class="portfolio__item">
+                        <div class="portfolio__item-cont">
+                            <h2>Tengo Gegelashvili</h2>
+                            <p>Travel Website</p>
+                            <div class="portfolio__item-btn">
+                                <a href="#">Demo</a>
+                            </div>
+                        </div>
+                        <div class="portfolio__image">
+                            <img class="portfolio__image-img" src="Assets/portfolio/9.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio__button">
+            <a class="portfolio__button-btn" id="portfolio__button-btn" href="#">მეტის ნახვა</a>
         </div>
     </section>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
